@@ -44,6 +44,7 @@ $price['mw'] = 69.99;
               </div> <!-- .owl-pricing-switcher -->
               <p class="deal-p1">Starting at</p>
               <p class="deal-p2"> $ <span id="dur-1"><?=$price['sb'];?></span><em>/mo</em></p>
+              <p class="deal-p1"><small><strong>($99 one time setup fee)</strong></small></p>
               <p class="deal-p3"> was <em>$ 99.00</em></p>
               <div class="promo-btn"> <a class="btn btn-default" href="<?=site_url("contact-us");?>"> <img src="<?php echo base_url($themes . 'img/icons/bullhorn-icon.png'); ?>" alt=""> GET YOUR <strong class="text-info">SB PLAN</strong> </a> </div>
             </div>
@@ -76,6 +77,7 @@ $price['mw'] = 69.99;
               </div> <!-- .owl-pricing-switcher -->
               <p class="deal-p1">Starting at</p>
               <p class="deal-p2"> $ <span id="dur-2"><?=$price['mb'];?></span><em>/mo</em></p>
+              <p class="deal-p1"><small><strong>($99 one time setup fee)</strong></small></p>
               <p class="deal-p3"> was <em>$ 119.00</em></p>
               <div class="promo-btn"> <a class="btn btn-default" href="<?=site_url("contact-us");?>"> <img src="<?php echo base_url($themes . 'img/icons/bullhorn-icon.png'); ?>" alt=""> GET YOUR <strong class="text-info">MB PLAN</strong> </a> </div>
             </div>
@@ -108,6 +110,7 @@ $price['mw'] = 69.99;
               </div> <!-- .owl-pricing-switcher -->
               <p class="deal-p1">Starting at</p>
               <p class="deal-p2"> $ <span id="dur-3"><?=$price['mw'];?></span><em>/mo</em></p>
+              <p class="deal-p1"><small><strong>($99 one time setup fee)</strong></small></p>
               <p class="deal-p3"> was <em>$ 149.00</em></p>
               <div class="promo-btn"> <a class="btn btn-default" href="<?=site_url("contact-us");?>"> <img src="<?php echo base_url($themes . 'img/icons/bullhorn-icon.png'); ?>" alt=""> GET YOUR <strong class="text-info">MW PLAN</strong> </a> </div>
             </div>
