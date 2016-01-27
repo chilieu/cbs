@@ -7,9 +7,25 @@ class Index extends Front_Controller
 		parent::__construct();
 		$this->layout = 'products-layout';
 	}
+
 	public function index()
 	{
 		$this->viewData['_body'] = $this->load->view( $this->APP . '/products/index-body', array(), true);
 		$this->render( $this->layout );
 	}
+
+	public function download()
+	{
+		$name = $this->uri->segment(3);
+		$this->load->helper('download');
+
+		//if not PayPalAdvancedNop link
+		if( $name != "PayPal-advanced-nop" ) return;
+		$data = time() . '-' . $this->input->ip_address() . "-" . $this->input->user_agent();
+		file_put_contents('/files/PayPal-advanced-nop.log', $data, FILE_APPEND | LOCK_EX);
+
+		$data = file_get_contents("/files/PayPalAdvancedNop3.70.zip"); // Read the file's contents
+		force_download($name . ".zip", $data);
+	}
+
 }

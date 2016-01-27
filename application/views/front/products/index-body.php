@@ -28,24 +28,24 @@ $price['mw'] = 69.99;
               <p class="deal-t1">&#9728; Supports Authorize or Authorize and Capture</p>
               <p class="deal-t1">&#9728; Supports Refund, Partial Refund, Capture if Authorize is enabled for the transaction mode</p>
               <p class="deal-t1">&#9728; Supports Mobile devices (iPhone, iPad, and Android)</p>
-              <p class="deal-t1">&#9728; Installation guide is provided in the download zip file</p>              
-              <div class="promo-btn"> 
-              	<a class="btn btn-default" href="<?php echo base_url($themes . 'download/PayPalAdvancedNop3.70.zip'); ?>"> DOWNLOAD NOW </a> 
+              <p class="deal-t1">&#9728; Installation guide is provided in the download zip file</p>
+              <div class="promo-btn">
+              	<a class="btn btn-default" href="<?php echo base_url('products/download/PayPal-advanced-nop'); ?>"> DOWNLOAD NOW </a>
               	<br/>
               	You can also <a href='https://github.com/CloudberrySoftware/PayPalAdvanced-Payments-Plugin'><u>download</u></a> the source code at Github.
-              	<br/>              	
+              	<br/>
               	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
               	If you find our tools useful, you can treat us coffee
 			<input type="hidden" name="cmd" value="_s-xclick">
 			<input type="hidden" name="hosted_button_id" value="B9FPTS7D9PAUG">
 			<input type="image" src="http://www.cloudberrysoft.com/public/themes/front/img/coffeebtn.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-		</form>		
-		
-              </div>              
+		</form>
+
+              </div>
             </div>
           </div>
-        </div>                
+        </div>
         </div>
       </div>
 

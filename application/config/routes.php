@@ -81,7 +81,7 @@ $route['support/(:any)'] = 'support/$1';
 
 // products
 $route['products'] = 'products/index';
-$route['products/(:any)'] = 'products/$1';
+$route['products/download/(:any)'] = 'products/index/download/$1';
 
 // submission - all forms submission goes here
 $route['submission'] = 'submission/index';
