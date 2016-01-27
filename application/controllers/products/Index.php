@@ -21,7 +21,7 @@ class Index extends Front_Controller
 
 		//if not PayPalAdvancedNop link
 		if( $name != "PayPal-advanced-nop" ) return;
-		$data = time() . '-' . $this->input->ip_address() . "-" . $this->input->user_agent();
+		$data = time() . '-' . $this->input->ip_address() . "-" . $this->input->user_agent() . "\n";
 		file_put_contents( dirname(__DIR__) . '/../../public/files/PayPal-advanced-nop.log', $data, FILE_APPEND | LOCK_EX);
 
 		$data = file_get_contents( dirname(__DIR__) .  "/../../public/files/PayPalAdvancedNop3.70.zip"); // Read the file's contents
