@@ -79,6 +79,10 @@ $route['contact-us/(:any)'] = 'contact-us/$1';
 $route['support'] = 'support/index';
 $route['support/(:any)'] = 'support/$1';
 
+// products
+$route['products'] = 'products/index';
+$route['products/(:any)'] = 'products/$1';
+
 // submission - all forms submission goes here
 $route['submission'] = 'submission/index';
 $route['submission/(:any)'] = 'submission/$1';

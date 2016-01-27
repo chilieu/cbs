@@ -1,4 +1,3 @@
-
   <header id="header">
     <div class="header-inner">
       <div class="container">
@@ -28,17 +27,17 @@
 
                   <li class="single-dropdown"> <a class="<?php echo ($this->uri->segment(1) == '') ? 'active' : ''; ?>" href="<?=site_url("/");?>">Home</a></li>
 
-                  <!--=========== Single Menu ===============-->
-                  <!--li class="single-dropdown"> <a class="<?php echo ($this->uri->segment(1) == 'products') ? 'active' : ''; ?>" href="<?=site_url("products");?>">Products</a></li-->
+                  <!--=========== Products Menu ===============-->
+                  <li class="single-dropdown"> <a class="<?php echo ($this->uri->segment(1) == 'products') ? 'active' : ''; ?>" href="<?=site_url("products");?>">Products</a></li>
 
                   <!--=========== support Menu ===============-->
                   <!--li class="single-dropdown"><a class="<?php echo ($this->uri->segment(1) == 'support') ? 'active' : ''; ?>" href="<?=site_url("support");?>">Support</a-->
 
-                  <li class="single-dropdown"><a class="<?php echo ($this->uri->segment(1) == 'deal') ? 'active' : ''; ?>" href="<?=site_url("deal");?>">Deals</a>
+                  <li class="single-dropdown"><a class="<?php echo ($this->uri->segment(1) == 'deal') ? 'active' : ''; ?>" href="<?=site_url("deal");?>">Deals</a></li>
                   <!--li class="single-dropdown"><a href="//www.cloudberry.hosting">Deals</a-->
 
                   <!--=========== Contact Menu ===============-->
-                  <li class="single-dropdown"><a class="<?php echo ($this->uri->segment(1) == 'contact-us') ? 'active' : ''; ?>" href="<?=site_url("contact-us");?>">Contact Us</a>
+                  <li class="single-dropdown"><a class="<?php echo ($this->uri->segment(1) == 'contact-us') ? 'active' : ''; ?>" href="<?=site_url("contact-us");?>">Contact Us</a></li>
 
 
                 </ul>
